@@ -1,0 +1,16 @@
+This is the README for the IOT-Backend implementation
+
+This requires a few things be install
+- Node/NPM
+- nodemon (for refreshing the server)
+- mongodb
+
+To run (in terminal)
+
+- npm install
+- nodemon server.js (refreshes with changes)
+
+
+
+NOTES:
+- Please clean the console.logs out when your done with a method.. (note to self)

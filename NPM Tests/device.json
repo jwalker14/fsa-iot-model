@@ -1,0 +1,44 @@
+{
+  "_id": "5758df013f5415eba88e2a0c",
+  "user_id": "",
+  "name": "Light",
+  "description": "<p>Description of the light switch</p>",
+  "current_state": "Off",
+  "__v": 0,
+  "states": [
+    {
+      "key": "On",
+      "output": 1,
+      "_id": "5758df013f5415eba88e2a10",
+      "transitions": [
+        {
+          "input": "On",
+          "state": "On",
+          "_id": "5758df013f5415eba88e2a12"
+        },
+        {
+          "input": "Off",
+          "state": "Off",
+          "_id": "5758df013f5415eba88e2a11"
+        }
+      ]
+    },
+    {
+      "key": "Off",
+      "output": 0,
+      "_id": "5758df013f5415eba88e2a0d",
+      "transitions": [
+        {
+          "input": "Off",
+          "state": "Off",
+          "_id": "5758df013f5415eba88e2a0f"
+        },
+        {
+          "input": "On",
+          "state": "On",
+          "_id": "5758df013f5415eba88e2a0e"
+        }
+      ]
+    }
+  ]
+}
